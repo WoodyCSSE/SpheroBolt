@@ -6,6 +6,7 @@ Program: Haunted Mansion Maze
 */
 
 async function startProgram() {
+
 	await scrollMatrixText("START", { r: 152, g: 0, b: 255 }, 10, true);
 
 	await toBlueLight();
@@ -79,3 +80,7 @@ async function toPurpleLight() {
 async function end() {
 	await scrollMatrixText("FINISHED!", { r: 152, g: 0, b: 255 }, 10, true); // Done!
 }
+=======
+  
+}
+
